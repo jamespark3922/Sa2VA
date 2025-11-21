@@ -200,16 +200,17 @@ if __name__ == '__main__':
     executor = concurrent.futures.ThreadPoolExecutor()
     for item in tqdm.tqdm(dataloader):
         with torch.no_grad():
+            print(len(item['images']))
             if is_qwen:
                 result = model.predict_forward(
-                    video=item['images'][:2000],
+                    video=item['images'][:1500],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                     processor=processor,
                 )
             else:
                 result = model.predict_forward(
-                    video=item['images'][:2000],
+                    video=item['images'][:1500],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                 )
