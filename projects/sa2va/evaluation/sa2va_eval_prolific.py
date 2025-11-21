@@ -58,14 +58,14 @@ DATASETS_INFO = {
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid/annotation/largest_center',
     },
     'REF-YT-VOS': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/annotation/largest_center',
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/valid',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/valid/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/valid/annotation/largest_center',
     },
     'REF-DAVIS17': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/annotation/largest_center',
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/valid',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/valid/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/valid/annotation/largest_center',
     },
     'REASON_VOS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/ReasonVOS/',
@@ -84,7 +84,7 @@ DATASETS_INFO = {
     },
     'PROLIFIC_ANIMALS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_va/JPEGImages',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals/annotation/largest_center',
     },
     'PROLIFIC_DANCE': {
