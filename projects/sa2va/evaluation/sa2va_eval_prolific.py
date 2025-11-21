@@ -202,14 +202,14 @@ if __name__ == '__main__':
         with torch.no_grad():
             if is_qwen:
                 result = model.predict_forward(
-                    video=item['images'],
+                    video=item['images'][:2000],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                     processor=processor,
                 )
             else:
                 result = model.predict_forward(
-                    video=item['images'],
+                    video=item['images'][:2000],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                 )
