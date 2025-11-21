@@ -47,6 +47,26 @@ def mask_save(item, mask_prediction, work_dir):
 
 
 DATASETS_INFO = {
+    'MEVIS': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid_u',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid_u/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid_u/annotation/largest_center',
+    },
+    'MEVIS-VALID': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/mevis/MeViS_release/valid/annotation/largest_center',
+    },
+    'REF-YT-VOS': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-YT-VOS/annotation/largest_center',
+    },
+    'REF-DAVIS17': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/Ref-DAVIS17/annotation/largest_center',
+    },
     'REASON_VOS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/ReasonVOS/',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/ReasonVOS/JPEGImages/',
@@ -62,22 +82,22 @@ DATASETS_INFO = {
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_general/annotation/largest_center',
     },
-    'PROLIFIC_CATEGORY_ANIMALS': {
+    'PROLIFIC_ANIMALS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_va/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals/annotation/largest_center',
     },
-    'PROLIFIC_CATEGORY_DANCE': {
+    'PROLIFIC_DANCE': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_dance',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_dance/annotation/largest_center',
     },
-    'PROLIFIC_CATEGORY_PEDESTRIAN': {
+    'PROLIFIC_PEDESTRIAN': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian/annotation/largest_center',    
     },
-    'PROLIFIC_CATEGORY_SPORTS': {
+    'PROLIFIC_SPORTS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_sports',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_sports/annotation/largest_center',    
