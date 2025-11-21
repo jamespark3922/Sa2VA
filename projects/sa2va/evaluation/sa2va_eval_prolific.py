@@ -93,9 +93,9 @@ DATASETS_INFO = {
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_dance/annotation/largest_center',
     },
     'PROLIFIC_PEDESTRIAN': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian',
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian_short',
         'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian/annotation/largest_center',    
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian_short/annotation/largest_center',    
     },
     'PROLIFIC_SPORTS': {
         'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_sports',
