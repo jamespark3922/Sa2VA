@@ -201,6 +201,7 @@ if __name__ == '__main__':
     for item in tqdm.tqdm(dataloader):
         with torch.no_grad():
             print(len(item['images']))
+            print(item['id'])
             if is_qwen:
                 result = model.predict_forward(
                     video=item['images'][:1500],
