@@ -73,34 +73,45 @@ DATASETS_INFO = {
         'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/ReasonVOS/annotation/largest_center',
     },
     'PROLIFIC': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/annotation/largest_center',
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/annotation/largest_center',
     },
     'PROLIFIC_GENERAL': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_general',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_general/annotation/largest_center',
-    },
-    'PROLIFIC_ANIMALS': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_animals/annotation/largest_center',
-    },
-    'PROLIFIC_DANCE': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_dance',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_dance/annotation/largest_center',
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_general',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_general/annotation/largest_center',
     },
     'PROLIFIC_PEDESTRIAN': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian_short',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_pedestrian_short/annotation/largest_center',    
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_pedestrian_short',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_pedestrian_short/annotation/largest_center',    
+    },
+
+    'PROLIFIC_MISC': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_misc',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_misc/annotation/largest_center',
+    },
+    'PROLIFIC_PERSON': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_person',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_person/annotation/largest_center',
+    },
+    'PROLIFIC_ANIMALS': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_animals',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_animals/annotation/largest_center',
+    },
+    'PROLIFIC_DANCE': {
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_dance',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_dance/annotation/largest_center',
     },
     'PROLIFIC_SPORTS': {
-        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_sports',
-        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val/JPEGImages',
-        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/video_text_queries_filtered_111025_val_category_sports/annotation/largest_center',    
+        'data_root': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_sports',
+        'image_folder': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final/JPEGImages',
+        'expression_file': '/weka/oe-training-default/mm-olmo/video_datasets/prolific/molmo2_track_benchmark_121325_final_category_sports/annotation/largest_center',    
     },
 }
 
