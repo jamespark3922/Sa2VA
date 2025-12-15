@@ -118,9 +118,6 @@ class ProlificDataset(BaseEvalDataset):
             if video not in vid2metaid:
                 vid2metaid[video] = []
             vid2metaid[video].append(len(metas) - 1)
-        
-        import random
-        random.shuffle(metas)
 
         return vid2metaid, metas
 

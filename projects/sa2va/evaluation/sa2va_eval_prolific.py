@@ -214,14 +214,14 @@ if __name__ == '__main__':
             print('logging', item['id'], len(item['images']))
             if is_qwen:
                 result = model.predict_forward(
-                    video=item['images'][:950],
+                    video=item['images'],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                     processor=processor,
                 )
             else:
                 result = model.predict_forward(
-                    video=item['images'][:950],
+                    video=item['images'],
                     text=item['text_prompt'],
                     tokenizer=tokenizer,
                 )
